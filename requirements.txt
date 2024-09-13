@@ -1,0 +1,8 @@
+pypdf
+langchain
+langchain-community
+rapidocr-onnxruntime
+faiss-cpu
+selenium
+beautifulsoup4
+streamlit
