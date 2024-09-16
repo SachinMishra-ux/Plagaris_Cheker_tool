@@ -4,7 +4,11 @@ from src.chunk_document import no_of_searches
 from src.get_links import search_multiple_queries
 from src.scrape_content import scrape_website_content
 from src.text_clean_helper import clean_string
+from src.constants import image_folder
 from src.match_results import parse_and_compare
+from src.process_images import process_images_in_directory
+from src.extract_images import extract_images_from_pdf
+from src.get_image_urls import search_image_on_google, search_results_url
 import tempfile
 
 
@@ -39,7 +43,7 @@ if st.button("Submit"):
     st.write(all_queries)
 
     
-if st.button("Generate Report"):
+if st.button("Generate Text Report"):
     
     queries= get_quries(file_path)
     with st.status("Fetching Links..."):
@@ -69,3 +73,23 @@ if st.button("Generate Report"):
             file_name="downloaded_text_file.txt",
             mime="text/plain"
         )
+
+    
+if st.button("Generate Image Report"):
+    with st.status("Extracting Images and searching for the match..."):
+        process_images_in_directory(file_path,image_folder)
+        st.write("Image search comapleted suscessfully !")
+
+        file_path1= "./image_search_results.txt"
+        with open(file_path1 , "r", encoding="utf-8") as file:
+            file_content = file.read()
+
+        # Provide a download button for the text file
+        st.download_button(
+            label="Download Image Report",
+            data=file_content,
+            file_name="downloaded_image_file.txt",
+            mime="text/plain"
+        )
+
+

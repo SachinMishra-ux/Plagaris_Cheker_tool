@@ -1,10 +1,10 @@
 
-Query: In Mathematics, a differential equation is an equation that contains one or more functions with its derivatives. The derivatives of the function define the rate of change of a function at a point.
-Matched in https://byjus.com/maths/differential-equation/
+Query: Intro to classi cation - Logistic regression - 1 One should look for what is and not what he thinks should be. (Albert Einstein)DAT SOCI
+No matching results found.
 
 --------------------------------------------------
 
-Query: derivatives of the function define the rate of change of a function at a point. Different point of Angle. Experienced Data Scientist and Mentor proficient in Machine Learning, NLP, Computer Vision,
+Query: Logistic regression: Topic introduction In this part of the course, we will cover the following concepts: Logistic regression use cases and theory behind it
 No matching results found.
 
 --------------------------------------------------
