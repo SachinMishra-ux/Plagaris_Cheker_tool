@@ -96,3 +96,88 @@ Top 5 URLs:
 5. https://twitter.com/datasocietyco
 
 ----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page13_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8pQmZ4BMdjJ3uugZY5psfHaSis3m60n6PpEJkqqHY6hxTFOBEw2AZWN9QcXmFky8n_FbzZWOes1fWZeHm3z50FXo_EMCmrt6BeBh4dpkDjdfrRzX2idgoJXrduTObak4AulhvJT5x5_ddmkVYbkT9tQRMTuay-VYT0lBjRNfuwwD6i2hG-ZOshF_H8pn2MbSyWoI-YJG3iND8APVoc%3D#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRFV6TXpGak1XSm1MV1l5T0dVdE5HUmhNaTA0WTJNMUxUbGhOMk5tTkRRMU9USXdNeElmVlhrMFR6UXhjREpXZG1kamMwWldkMUYzZG5veE4wVkhWa2hMYTBsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyJkODZhYTc0ZC02OGNiLTQ1ZDktOTJjNy01MmM4OWI5YjkyYWIiXV0=
+Top 5 URLs:
+1. https://datasociety.com/insights-impact/page/14/
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page11_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8pZxqgo613FWZKnNmZCj3EfL2Yfmetooj4VGb07yLMWLEb3U32s_h2HnSEZgMr67NKcfszVRzyxJP7a861NN2aw6rSIFtgetSWwfI4OBwI9ofJpcMn5sBoKzgL1aFewVXIbQbVQ1gjfs6egFQfz2aM9UiCoti0fb4xbEnX925q-wdVDeq7WyEKV-7L4ZU6wZldevDcYgnO07YYwgKDH#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRGN6T0RZNVl6WXlMV014WlRjdE5HTXpNeTFpT1RKaExUQXlPVFkwT1RrNFlqVmlOaElmYjNjdFduRkNaelJpVDJkUmMwWldkMUYzZG5veE4waFhSbGh0YTBsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyIwOGY1N2U2Yy1lODRiLTRhOWItOGUwOS1lNzliOGJhYTAyOGMiXV0=
+Error: Couldn't find webpages or duplicate images. Try another one instead.
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page11_1.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8p-m_rK0YpUuVUho7ByVqDsMgChYdLF7Q82Gz8zpfS4im5hRKBmQQtnpKbnXwef6vj-qvU5RsVqa1M9S1Nlsy-pUHzBfznBqw4Nf4xhKOK4k8y2_d-pHuLLmPldtlF5IQ1-SqowIJmfW9Jfbr5pFtApvrS1gFet8lF3WEWAUOqnGhr4TSi56vQnjiksa87L-s-uIF25DeRqv-mztSc%3D#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRFF3Tm1OaVpqSTNMVFV3TWpFdE5HUTNNeTFoT0dSbExXVm1NVFF4Wm1ZeVlqZ3pOaElmT0RGMWFHc3piRE0zYTNkbGMwWldkMUYzZG5veE4wZHRVVzQyYTBsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyJhNWJjZGUxYy1mOGVhLTRmMmMtOGRjZi1kZWIwYjYyYmM2YTciXV0=
+Top 5 URLs:
+1. https://datasociety.com/insights-impact/page/14/
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page15_1.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8on9KYZFvmY3k1Ig41C4d9II8o6IZu5UXzXZkxNg0A4PdciiIEUvGT5GOYBHLzI9hvchZLWUJz7UR_op96bLE4bq3_vlVX0z3DAZw0EhKHm0B8Ul34KE1Ldgs1wJumHwXWi8Oer1fl1M0Zvbblxsvx_GPGfA3tsq2NQY75BjiZpcspLHFDxPqp4PLMtAmGyeWMvHOmpth0S6nOawiw%3D#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKREkzWWpGa01EZ3pMVGxoTVRjdE5ETXdPQzFpTVRObExUVmxPVFkxTmpobFpqVTBOeElmV1RWVWNsVnZNSGw0VmpCVGMwWldkMUYzZG5veE4wZHRiMjlYYTBsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyJjOGFmNzE0MC04ZmUzLTQyNjgtYWVlZC1lY2E4MTBhNzg4NTUiXV0=
+Top 5 URLs:
+1. https://datasociety.com/insights-impact/page/14/
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page15_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8raUxq_k06BzxQtKPP6sKjzD6jHES3OcVDCubMzZn77zqj6qEaUmiNftX0EqU92Km9zM_L3yIja3kWfI_Qv2oKEvrLUISvKPT5qSt2ZAz00z5khZB9v9u-2lO3bkcwi24d08bMumHTQu2TQp4OD26-pUtOoOXJi1Nxx85OCzdmrrEKfu-r7_-toMXt43Z2vnwd3IUo8eZOUzRa3tAdI#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRFZpTURZNVpEWmhMVFZsTWpFdE5EazRZUzFpTURJNExXTTFZekl3TVRSaFlUaGhNeElmTkRjd1VHMURNa0pTYTAxYWMwWldkMUYzZG5veE4wWkhVVmw1YTBsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyJmZDE1ZjExYS1lN2MyLTQyNjEtODMyMC0yNmY3YmJjNTg0ZWEiXV0=
+Error: Couldn't find webpages or duplicate images. Try another one instead.
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page9_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8ofKLD7PfRUWPqsXb6is0bozwBFt5CnKnAltaoVQtXda3L88Zr5YuIGZmHi6daBFnqpQ2px4f_Jr6rMGJjEUtrUSxgUf15nGa8sz6ZS5Ii3KRSIqfbYHCGemnapRRVAkd1Uxrbm4afqNmAQvsuLVIpAyba66wlN-WRAuc2qBiYhEDUJtafTqDg3mgzetMX9R0rVFBj_gfsTrig-k_1t#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRFJqTVRRNE5HSTNMVEptWWprdE5EZzVNaTFpWkdKakxXWTFOamN5WWpSbVpUQTFaUklmUVhwaVJWUTVRMjVvVFVsWWMwWldkMUYzZG5veE4waHRaMlJsY2tsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyIxY2VlMzg2Yi1hYTc5LTQyZTAtOTM2YS0wMWNiYzY2N2YwYjAiXV0=
+Error: Couldn't find webpages or duplicate images. Try another one instead.
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page10_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8oN2-qSbJ5SE7AaqjmE2-Evg-kyAvIe90d7ubjp9IDHpPJO0nwsgCCmMORYUf2Y4JRRHXz5gOYLpRww8NoJKyYJTOPcltc35wOevLjZmqSTD4JfaSizym7Zr8Udoa7OAh6uQzymTjF92iiVBV6OOuqLe4dbEgPNlqbY5yHNRHYYqHlJtRg-nkIN-AgHHWWcMoRCrslbpdi6WMeHFBux#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRGRrTXpWalpqZzNMVFV3TmpndE5EWTVZUzFoWlRNNUxUTXdZMk0xWW1ZM09UUTJNUklmU1RadU1VSlJTR1ZYZW1OWGMwWldkMUYzZG5veE4wVnRZVTR5Y2tsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyJhZmYzNmMwZC1lNTQzLTQ0NWYtOTdkZS0xNGU4MmI5N2MyZDAiXV0=
+Top 5 URLs:
+1. https://en.m.wikipedia.org/wiki/File:Flecha_tesela.svg
+2. https://commons.wikimedia.org/wiki/File:Flecha_tesela.svg
+3. https://commons.wikimedia.org/wiki/File:Zyklus_3_Pfeil.jpg
+4. https://in.misumi-ec.com/vona2/detail/223005088570/
+5. https://th.misumi-ec.com/en/vona2/detail/223005088570/
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page16_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8pPCSp7U2Yk8G7XzaS7IOxrU1dgwlVi-biQkRuznPSiNi35yy8p5AxS16mjJP_-_fBYJI-ianc3sP3nU-LuqNDJ0WK2gB9RWIHKAYVJcqC95hzZCqsjS0xrL0ycn8B5A33kWgtdvRuKv6sGTHMcRlP2pLEVTLQdbD8JcscEfZAsZhdurcXOYJQWPdq26Fcp5QQr9DyJLyFxDUVMez_9#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKREEwT1RZNVpqSXlMV1EzT1RRdE5HRmxNUzA0TnpSbUxXWmxObVV6TlRFeE9EZGtOeElmU1RKS2JtVk9XRGQ0Y0hOamMwWldkMUYzZG5veE4waFhUSFZsY2tsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyI0NzQ0MzVhMC0xMzJmLTRkZDEtYmM0MC02OGU1ZjgyZGI2NGMiXV0=
+Error: Couldn't find webpages or duplicate images. Try another one instead.
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page8_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8qTCPce4LZfFHJv67KtB3ws1-WBqhnW02t5nF0SGP58n6UgeFudLs4d8oQsvaKlIwRHSG2OxxPwHxlziO2tpkgg6-egXYGUv4azLaLJHODwsXbOXifJuyQdcEGE6MQ7SaK_kNf11cJhkZ-bNyfAgUT5x_OI4CsLohic3Wf2E2s0TiMEOIpupUW7aMz29CmHIVOPnADXHrk2ZjJMmuZq#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKR1UzT1dRNFptTmpMVFExTjJFdE5EQmpNeTFoWldRd0xUUTFNMlU0Tm1GbU0ySTJPQklmU1hkU1kxWlhRWEJpUVVGWWMwWldkMUYzZG5veE4waEhhbVV5Y2tsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyI4YzY1YWU1Ni1mNzU4LTRjZTAtYmE2Yi03NDZjYjQwMDFiYmMiXV0=
+Error: Couldn't find webpages or duplicate images. Try another one instead.
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page18_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8pCpj9nP_N8PZmJlN2k6_qKFEYWseUg1ZjTIqfxvNFcOKuOOTfgXetfAAPxTWpwkGQ3zh_qK66Xc-RRGY9qwbvKYOURFcWTPS0RiPKr5_mrJtKqMjlRqqYhkBGs-nlslT3poFXF1QRXlg-cztHXBZtCby3QnZNiaNYYkeUaF9Vd05NXBflNW63-_78OtRHXGJN1FbXuOaimtaj6zAuY#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKREJqT0RabVpEQm1MV00wTnpJdE5HVTRZUzFpWkRNd0xUWTNPVEJrTjJZd05EUXdNUklmYXpob1dqRnRPVnBuVjJOa2MwWldkMUYzZG5veE4wZEhTblpUY2tsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyI0YjcxYmI5OC01NGQ4LTRjNzAtYmMzYS01ZGNmNTJjYzQ0ZmIiXV0=
+Error: Couldn't find webpages or duplicate images. Try another one instead.
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page7_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8ofvsSoINOsfFVTzBL3LnVj_DWDQB3HGOIL6Udjx5uVkjvF8WVO918jqr2xcQ2RWJA1q5e_4BeU_-6u82jIfXk5kcULo-Ngovecz55pukl3s5o1_UwnlmbJ8WPWlea26EC_r4BYtFOaSVkcMo6ZiDgsFqPbnRdwB41QrULHyf5NEOA1XGTtWE5zrr08q1qgSH-q8vJCrSC7jSy12uYD#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKR0ZoTUdKbFptVTRMV1k0TTJFdE5EZGhOUzFpT0RaaUxXUXhNMkZpTWpnMk4yWTFaaElmVFhsc1ZsbzRTRmhpYmxsYWMwWldkMUYzZG5veE4wWXlRMUJ4Y2tsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyIwYzE4MzkwMS0zNjMzLTQ1MzctYTM4Mi1kMGMzNjQ0ZTc4ZjAiXV0=
+Error: Couldn't find webpages or duplicate images. Try another one instead.
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page1_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8qdeaIYS9TDcvEFlPgfQjBZX9DmVVfze802lx8wKnYXhoIYGWAR-WN2XjHs5JRusc_If4qWKt7pNU13mUFbCvj27OGlQSKmJGh6yj9eGHnRO-IgYtqxaKckU3SrpoM3HcCFBhA4mAtaepxvCQEo1EnENMwvy-ebs0QFV8H0Ej2AzZLnvnWxdIUvJAAJYCEwOs02UZXuAaRq-aWLHa38#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRFF6WldFM1ptUmxMVGhqWTJNdE5HSXlPUzA0WVRVd0xUUTBPR1EyTUdRMVpXVXhOQklmVFhvMWJXcHhhaTB6ZEhOVmMwWldkMUYzZG5veE4wZ3lVVUZIYzBsQ2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyI2MzZhMjc0My1iNThmLTQ5NjctODAyMS05MzNhM2Y5MzdlOWMiXV0=
+Top 5 URLs:
+1. https://datasociety.com/data-society-announces-rebrand/
+2. https://www.facebook.com/datasocietyco/
+3. https://www.businesswire.com/news/home/20211109005497/en/Data-Society-Launches-Transformational-Data-Science-Learning-Experience-Communication-Platform
+4. https://twitter.com/datasocietyco
+5. https://www.businesswire.com/news/home/20210817005113/en/Data-Society-Ranks-in-Top-Half-of-2021-Inc.-5000-List
+
+----------------------------------------
