@@ -11,6 +11,8 @@ import time
 def search_image_on_google(image_path):
     # Set up the WebDriver (assuming you are using Chrome)
     options = webdriver.ChromeOptions()
+    options.add_argument("--headless")  # Enable headless mode
+    options.add_argument("--disable-gpu")  # Disable GPU acceleration (recommended for headless mode)
     driver = webdriver.Chrome(service=Service(chrome_driver_path), options=options)
 
     # Open Google Images search
@@ -83,6 +85,8 @@ def search_image_on_google(image_path):
 def search_results_url(image_path, result_url,output_file="image_search_results.txt"):
     # Set up the WebDriver (assuming you are using Chrome)
     options = webdriver.ChromeOptions()
+    options.add_argument("--headless")  # Enable headless mode
+    options.add_argument("--disable-gpu")  # Disable GPU acceleration (recommended for headless mode)
     driver = webdriver.Chrome(service=Service(chrome_driver_path), options=options)
     wait = WebDriverWait(driver, 6)
     try:

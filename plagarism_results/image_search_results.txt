@@ -181,3 +181,67 @@ Top 5 URLs:
 5. https://www.businesswire.com/news/home/20210817005113/en/Data-Society-Ranks-in-Top-Half-of-2021-Inc.-5000-List
 
 ----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page9_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8oKM3RvqPeDiL4HRbjne413t2LtWNtwx80ja0jZGvv6zcib46YZo_Nh6NZxpnUdjcM6dQ8x1dGvk2HIH4hiAxxFHOvHpcEVIvJY22rNpHFbvW4FBQ3KvW0-e9jhUcbpHJw63koKVYKLvyUq-YGHRSBlsj28ZQRahr3YKQQv8uRdQdtGiRjf7c4Ksn-9WVaPkJZvUAciHJ6BmslkS_SQ#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKR0l5TW1RNVptUTRMV1kwWXpJdE5EQmpOQzA1TWpZMUxUY3lZek0xTmpkak4yVmhaUklmT0RkMlRsUldPVlF6U21kYWMwWldkMUYzZG5veE4wVXlZbkZQYVU1Q2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyI4YjY1MmQxZi0zMDU4LTQzNTYtODQzNS0xNTYyNjIzNzU0ZDEiXV0=
+Error: Couldn't find webpages or duplicate images. Try another one instead.
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page10_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8ot-Z8bYZ9UCOldRf4_QjMxcZOHrytHfRdi1_4hLR4skbz3iRGNArvPxTaVcVc7qt1NszNDM-lfUOYuihulu-cm9bU1i8qq7QmIZCki3pnRBG2hp_aSvGm5lxfObwwFJexf0CdWBnUvmlcUBCTYm0Qga256h--po6jZ4ZCKiWNCnu_Ald8v3al4heLEECuMzsDT9fCp5jPJdWN11fZr#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKREJqTURrM056YzFMVEV4WVRVdE5Ea3dNUzA0TW1OaUxXRTVOVEV6TXpGak5HVmpNaElmUlhkVGNYRmZTR2hMT0c5bWMwWldkMUYzZG5veE4wZEhkbkZoYVU1Q2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyJlMzM1ZWIzZC00YWQ2LTQxNGYtYTlkMy05MTQ0MTQ4NTJlM2EiXV0=
+Top 5 URLs:
+1. https://www.freeiconspng.com/img/2565
+2. https://te.m.wikipedia.org/wiki/%E0%B0%A6%E0%B0%B8%E0%B1%8D%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B0%82:Flecha_tesela.svg
+3. https://in.misumi-ec.com/vona2/detail/223005088570/
+4. https://www.olsensafety.com/durable-marking-shapes-arrow--1
+5. https://create.vista.com/photos/to-the-right-arrow/
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page16_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8okzadolUetmPSQAfyz4ioGNqcqQoLcnJd_BV1OT5HhsWeo61NWvT6e38AsBirGzsp2TK4_j0UDfSzEiHZaFNEHSxT3bv5s7wyIt1cSH8r6dvdRGKtjQXfykNIm-b1cRoNKYUWU197IIfYajzf3ILE4hSG6Zp0unO9dZejSOupUazAtPw-I6SZVSBt54kxZDlE2wA8QHlPaEerzGhpa#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRFUzTlRjellURmhMV0ppTVRjdE5EazROUzFpTXpKaExXTmlOelV4WmpJeU16ZGpOUklmZHpsVE1FTmthVWhTU1RSUmMwWldkMUYzZG5veE4wWnRVVFoxYVU1Q2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyJjZjBjMjc2ZS1iNGMwLTRlZTEtODliOS1hNzU2Mzk0MTBlNzUiXV0=
+Top 5 URLs:
+1. https://pngtree.com/freepng/thinking-a-best-idea-to-be-executed-for-class_7811630.html
+2. https://pngtree.com/so/conclusion-clipart
+3. https://www.arnavsameer.com/work/lernr
+4. https://pngtree.com/freepng/thinking-business-executive-graphic-sticker-vector_12232285.html
+5. https://pngtree.com/so/executive-clipart
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page8_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8rbutMJtoeBkLkdht_WneqotQRdqxRre03ocg2UjVGspw4t4IdKx2cyqsWeK5QTrHk8-kI_80gy2R6r19IDmp_oOa0vr9HcCza32qshC37EFcFwZ8r0mvw4SRYflyO-d5XFnzJZ7iP0fINBrhpzwuWJe52nidqg9v7DBzONlSmaWNDr0q9uwKZUFuNwpPRvA6OpXzKIF0ts3JjUd3_q#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRGRpTm1VMU5qZ3pMV0ZtWXpRdE5EazNZaTFoTW1NeExXVmpZelV3TlRJd05UZzJaUklmVFRKUFRHdEVNamd3U0d0aWMwWldkMUYzZG5veE4wVnRSemREYVU1Q2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyI0NGU3YjBlNi1lMGU0LTQxMGMtYTZiMi1kM2JkNTQwNjI3YWEiXV0=
+Error: Couldn't find webpages or duplicate images. Try another one instead.
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page18_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8rgSHNHCsMbN78_lJnZEYIzu0ChjSOyyaIRyiUKymzDltI9OzMC_tGhbPd4OgAA4Pb4lJIC2vItVGTOpt4I2fBSiNE8PSZPF_if0wibRePH13VxEVQR2WhpkFL2hiucPRZQnVJSO8dZwdAUB9hJcW8cQZWwZhkKVulFP500Yp1NjUlHeq9I6qxZa25tUqSrw0rFNcif3FbadZ7nWT2h#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKR05rTjJNMlpEZzRMVFUzTjJJdE5ESTVZUzA0WVRWaUxURXhOakZpTkRNNFpEWXpNeElmUVhoV2JqaEZRMHRyUmxsVWMwWldkMUYzZG5veE4wZFhWbUpQYVU1Q2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyIzMzJmODAxYS0yZTJkLTQ4YmQtOWY0My0wODEzODI3NzI1YzQiXV0=
+Top 5 URLs:
+1. https://bibboards.com/products/solid-color
+2. https://www.redbubble.com/i/t-shirt/Purple-Polka-Dots-on-White-Background-by-Bumblefuzzies/56789703.1YYVU
+3. https://www.redbubble.com/i/apron/Light-Purple-Polka-Dots-on-White-Background-by-Bumblefuzzies/56791598.6ZXWR
+4. https://www.etsy.com/listing/256845675/white-lavender-vinyl-polka-dot-wall
+5. https://ar.pinterest.com/pin/1135329387296244960/
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page7_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8q1V4KMNdrChrKETg9YXFzAHRuUYcPShaxAq9jNoWODwYJYLVSbtmTml6yni3JPlZ8wd3KNoPyq7_8Z2Lc2sY5NXHniE6r6gtaNkUCBrTFlb6CYukz9Oa-ySDwZ0i4KYLE6OZVAPUj-YCdsGxRxwYWnHcnWIZhiXO02273QiKTHXBT-I0hO8am7yRpDSiZjx33sl0Ae0KQ4SPw_ITJ9#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKR0UxTm1VM1pXWm1MV05rWTJVdE5EZzBPUzA0T1dGakxUa3daVFF4TmpReFl6TmtOUklmTkRaRWIxcFJZMFpHV1d0WWMwWldkMUYzZG5veE4wWlhNVXhsYVU1Q2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyJjNTgxNGU0My03YTkyLTRjZWItOGI5MC1jY2Y3NDQ2ZjZlZDgiXV0=
+Top 5 URLs:
+1. https://in.pinterest.com/pin/animations-of-logistic-regression-with-python--684758318339821994/
+2. https://towardsdatascience.com/fishers-exact-test-from-scratch-with-python-2b907f29e593
+
+----------------------------------------
+
+Image Path: /Users/sachinmishra/Desktop/Testing/plagarism_checker/extracted_images/image_page1_0.png
+Result URL: https://lens.google.com/search?ep=gisbubb&hl=en-IN&re=df&p=AbrfA8pQYwy-VdkeE7j55XMyHLF7Mu3yyUDllc-afvXJjEIakkcP9HBqLQ_4DXcB23J1FgRO1xOY_wyd4JCyAMLNWNiaCTDr6fgAc8XJwQSjP8AA37EppXUbOrJpa__XJwOuRSQp7uaUcfsPLBqeyvbQzWQWYyDOMA6jXDIGs2mM9-mziSj3OAQ3loFRbZeiK5H-x11CQwgo-Fp6Txs_zLGx#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKREV5WWpCa1pHUm1MV0UzTVRNdE5EVmxZeTFoTmpJNUxXWXpOalk0WVdZMU56ZGlNaElmWXpoVlMwNXVMVFJ3U1d0V2MwWldkMUYzZG5veE4wVXlWV0o1YVU1Q2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyI5N2Q4OTYwZS04YTBhLTQ3ZTItOTJjNS1jMWIxYWY5OTQ5OWQiXV0=
+Top 5 URLs:
+1. https://www.facebook.com/datasocietyco/
+2. https://anaconda.cloud/a/Data%20Society
+3. https://twitter.com/datasocietyco
+4. https://medium.com/@datasocietyco
+5. https://www.indeed.com/cmp/Data-Society
+
+----------------------------------------

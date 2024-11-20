@@ -14,6 +14,8 @@ import time
 
 def scrape_website_content(search_results):
     options = webdriver.ChromeOptions()
+    options.add_argument("--headless")  # Enable headless mode
+    options.add_argument("--disable-gpu")  # Disable GPU acceleration (recommended for headless mode)
     driver = webdriver.Chrome(service=Service(chrome_driver_path), options=options)
     
     # Dictionary to store the results
