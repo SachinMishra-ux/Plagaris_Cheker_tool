@@ -58,7 +58,7 @@ if st.button("Generate Text Report"):
         parse_and_compare(query_content_dict)
         st.write("Report Generated & Results written to 'query_matches.txt file")
         
-        file_path= "./query_matches.txt"
+        file_path= "./plagarism_results/query_matches.txt"
         with open(file_path , "r", encoding="utf-8") as file:
             file_content = file.read()
 
@@ -80,7 +80,7 @@ if st.button("Generate Image Report"):
         process_images_in_directory(file_path,image_folder)
         st.write("Image search comapleted suscessfully !")
 
-        file_path1= "./image_search_results.txt"
+        file_path1= "./plagarism_results/image_search_results.txt"
         with open(file_path1 , "r", encoding="utf-8") as file:
             file_content = file.read()
 

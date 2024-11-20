@@ -6,7 +6,7 @@ import re
 
 def parse_and_compare(query_content_dict):
     # Open a text file for writing the output
-    with open("query_matches.txt", "w") as file:
+    with open("./plagarism_results/query_matches.txt", "w") as file:
         file.write("\n")
         # Iterate through each query and its corresponding list of link-content dictionaries
         for query, link_content_list in query_content_dict.items():

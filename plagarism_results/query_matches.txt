@@ -1,10 +1,10 @@
 
-Query: Intro to classi cation - Logistic regression - 1 One should look for what is and not what he thinks should be. (Albert Einstein)DAT SOCI
+Query: ML ow - Basics - 1 One should look for what is and not what he thinks should be. (Albert Einstein)DAT SOCI
 No matching results found.
 
 --------------------------------------------------
 
-Query: Logistic regression: Topic introduction In this part of the course, we will cover the following concepts: Logistic regression use cases and theory behind it Data transformation necessary for logistic regression
+Query: ML ow Basics: Topic introduction In this part of the course, we will cover: Introduction to MLOps and its fundamentals Challenges of machine learning model deployment Introduction to ML ow ML ow - Basics - 1  Ⓒ 2024 1SO
 No matching results found.
 
 --------------------------------------------------
