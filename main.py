@@ -13,7 +13,6 @@ import tempfile
 
 
 
-
 def get_file_path(uploaded_file):
     if uploaded_file is not None:
         # Save uploaded file to a temporary file

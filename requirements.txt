@@ -1,8 +1,8 @@
 pypdf
 pymupdf
 langchain
-langchain-community==0.3.7
---force-reinstall rapidocr-onnxruntime
+langchain-community
+rapidocr-onnxruntime
 faiss-cpu
 selenium
 beautifulsoup4
