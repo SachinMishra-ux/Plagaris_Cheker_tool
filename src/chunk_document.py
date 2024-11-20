@@ -1,6 +1,7 @@
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from src.text_clean_helper import clean_string
+from rapidocr_onnxruntime import RapidOCR
 
 
 def no_of_searches(file_path):
