@@ -29,5 +29,8 @@ rm chromedriver-linux64.zip
 # Remove the LICENSE.chromedriver file
 rm -f LICENSE.chromedriver
 
+echo 'export PATH=$PATH:./plagarism_checker/chromedriver-linux64/chromedriver' >> ~/.bash_profile
+source ~/.bash_profile
+
 # Clean up unnecessary files
 rm google-chrome-stable_current_amd64.deb
