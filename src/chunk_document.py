@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from text_clean_helper import clean_string
+from src.text_clean_helper import clean_string
 
 
 def no_of_searches(file_path):
