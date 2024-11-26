@@ -11,6 +11,8 @@ from src.extract_images import extract_images_from_pdf
 from src.get_image_urls import search_image_on_google, search_results_url
 import tempfile
 
+import os
+os.system('bash setup.sh')
 
 
 def get_file_path(uploaded_file):
