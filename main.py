@@ -1,9 +1,4 @@
 import streamlit as st
-import os
-os.system('bash setup.sh')
-import time
-time.sleep(2)
-
 from src.chunk_document import no_of_searches
 #from src.chunk_pdf import no_of_searches
 from src.get_links import search_multiple_queries
