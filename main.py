@@ -1,4 +1,9 @@
 import streamlit as st
+import os
+os.system('bash setup.sh')
+import time
+time.sleep(2)
+
 from src.chunk_document import no_of_searches
 #from src.chunk_pdf import no_of_searches
 from src.get_links import search_multiple_queries
@@ -10,9 +15,6 @@ from src.process_images import process_images_in_directory
 from src.extract_images import extract_images_from_pdf
 from src.get_image_urls import search_image_on_google, search_results_url
 import tempfile
-
-import os
-os.system('bash setup.sh')
 
 
 def get_file_path(uploaded_file):

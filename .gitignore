@@ -165,3 +165,6 @@ cython_debug/
 #.idea/
 
 
+src/__pycache__/__init__.cpython-310.pyc
+src/__pycache__/get_image_urls.cpython-310.pyc
+src/__pycache__/constants.cpython-310.pyc
