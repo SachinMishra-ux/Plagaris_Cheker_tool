@@ -79,8 +79,8 @@ if st.button("Generate Image Report"):
         process_images_in_directory(file_path,image_folder)
         st.write("Image search comapleted suscessfully !")
 
-        file_path1= "./plagarism_results/image_search_results.txt"
-        with open(file_path1 , "r", encoding="utf-8") as file:
+        file_path2= "./plagarism_results/image_search_results.txt"
+        with open(file_path2 , "r", encoding="utf-8") as file:
             file_content = file.read()
 
         # Provide a download button for the text file

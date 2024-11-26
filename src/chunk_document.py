@@ -30,7 +30,7 @@ def no_of_searches(file_path):
     return queries
 
 if __name__ == "__main__":
-    queries= no_of_searches("./data/test.pdf")
+    queries= no_of_searches("./data/test1.pdf")
     print(type(queries))
     print(queries)
 
