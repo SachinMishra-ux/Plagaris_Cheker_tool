@@ -1,27 +1,15 @@
 import streamlit as st
 from src.chunk_document import no_of_searches
-#from src.chunk_pdf import no_of_searches
 from src.get_links import search_multiple_queries
 from src.scrape_content import scrape_website_content
 from src.text_clean_helper import clean_string
-from src.constants import image_folder, chrome_driver_path
+from src.constants import image_folder
 from src.match_results import parse_and_compare
 from src.process_images import process_images_in_directory
 from src.extract_images import extract_images_from_pdf
 from src.get_image_urls import search_image_on_google, search_results_url
 import tempfile
 
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-
-# Set path to ChromeDriver if not already set in PATH
-service = Service(chrome_driver_path)
-options = webdriver.ChromeOptions()
-driver = webdriver.Chrome(service=service, options=options)
-
-# Get the Chrome version
-st.write(driver.capabilities['browserVersion'])
-driver.quit()
 
 
 def get_file_path(uploaded_file):
