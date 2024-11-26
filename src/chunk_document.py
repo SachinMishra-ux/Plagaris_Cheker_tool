@@ -1,13 +1,16 @@
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from src.text_clean_helper import clean_string
+from text_clean_helper import clean_string
 
 
 def no_of_searches(file_path):
     queries = []
     # load Fulfillment_report_slides.pdf from `data` folder to Colab
     loaders = PyPDFLoader(file_path, extract_images=True)
-    docs = loaders.load()
+    #docs = loaders.load()
+    #loaders = PyPDFLoader(file_path, extract_images=True)
+    docs= loaders.load_and_split()
+
 
     # No of pages in doc
     print('Numbers of pages:',len(docs))
