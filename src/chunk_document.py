@@ -18,8 +18,8 @@ def no_of_searches(file_path):
     # Document splitting
     
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size = 250,
-        chunk_overlap = 80
+        chunk_size = 200,
+        chunk_overlap = 40
     )
     splits = text_splitter.split_documents(docs)
     print("No of searches to make:", len(splits))

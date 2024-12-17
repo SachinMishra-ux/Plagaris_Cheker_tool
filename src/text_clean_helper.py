@@ -10,6 +10,25 @@ def clean_string(input_string):
     
     return cleaned_string
 
+def remove_queries_by_index(queries, indices_to_remove):
+    """
+    Removes queries at specified index positions from the list.
+    
+    Parameters:
+        queries (list): The list of queries.
+        indices_to_remove (list): List of index positions to remove.
+    
+    Returns:
+        list: The updated list of queries with specified indices removed.
+    """
+    # Convert indices_to_remove to a set for faster lookups
+    indices_to_remove = set(indices_to_remove)
+    
+    # Use list comprehension to filter out queries at specified indices
+    updated_queries = [query for idx, query in enumerate(queries) if idx not in indices_to_remove]
+    
+    return updated_queries
+
 def extract_body_content(html_content):
     soup = BeautifulSoup(html_content, "html.parser")
     body_content = soup.body
