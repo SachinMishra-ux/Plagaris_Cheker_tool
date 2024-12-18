@@ -43,7 +43,7 @@ def google_search(query, driver):
                 print(f"No search results for query: {query}")
         else:
             for i, result in enumerate(search_results):
-                if i >= 2:  # Stop after the first 3 links
+                if i >= 3:  # Stop after the first 3 links
                     break
                 try: 
                     parent = result.find_element(By.XPATH, "..")

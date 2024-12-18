@@ -6,9 +6,10 @@ from src.text_clean_helper import clean_string,remove_queries_by_index
 from src.constants import image_folder
 from src.match_results import parse_and_compare
 from src.process_images import process_images_in_directory
-from src.extract_images import extract_images_from_pdf
-from src.get_image_urls import search_image_on_google, search_results_url
+##from src.extract_images import extract_images_from_pdf
+#from src.get_image_urls import search_image_on_google, search_results_url
 import tempfile
+import os
 
 
 
@@ -21,18 +22,12 @@ def get_file_path(uploaded_file):
         return temp_file_path
 
 def get_quries(temp_file_path):
-    # Extract text from the PDF using the temporary file path
-    st.write("Extracting text from the PDF...")
-    
-    queries = no_of_searches(temp_file_path)  # Pass the file path to your function
-    st.write("Generated Queries:")
-    return queries
+    with st.status("Extracting text from the PDF..."):
+        # Extract text from the PDF using the temporary file path
+        queries = no_of_searches(temp_file_path)  # Pass the file path to your function
+        st.write("Generated Queries:")
+        return queries
 
-# Initialize session state
-if "all_queries" not in st.session_state:
-    st.session_state.all_queries = []
-if "filtered_queries" not in st.session_state:
-    st.session_state.filtered_queries = []
 
 #remove_queries_by_index
 
@@ -48,26 +43,15 @@ with st.sidebar:
     submit_button = st.button("Submit")
     text_report_button= st.button("Generate Text Report")
     image_report_button= st.button("Generate Image Report")
+    exit_button = st.button("Exit")
+    # Logic for Exit Button
+
 
 # Sidebar logic when "Submit" button is clicked
 if submit_button:
     if file_path:  # Ensure a file has been uploaded
         all_queries = get_quries(file_path)
         st.write("All Queries:", all_queries)
-
-        # Input from the user as a comma-separated string
-        user_input = st.text_input("Enter quries indices that you don't want to search on internet, separated by commas (e.g., 1, 2, 3, 4):")
-        
-        if user_input:  # Check if input is not empty
-            try:
-                # Convert input into a list of numbers (integers or floats)
-                filtered_queries = [float(num.strip()) for num in user_input.split(",") if num.strip()]
-                #st.success("Here is your list of numbers:")
-                st.write(filtered_queries)
-            except ValueError:
-                st.error("Invalid input! Please enter numbers separated by commas.")
-        else:
-            st.warning("Input cannot be empty. Please enter some numbers.")
         
     else:
         st.warning("Please upload a PDF file before submitting.")
@@ -78,7 +62,7 @@ if submit_button:
 if text_report_button: 
     queries= get_quries(file_path)
     with st.status("Fetching Links..."):
-        search_results= search_multiple_queries(queries[0:2])
+        search_results= search_multiple_queries(queries[0:])
         st.write("Links Fetched Sucessfully...!")
     
     with st.status("Scrapping  Content..."):
@@ -109,12 +93,13 @@ if text_report_button:
 if image_report_button:
     with st.status("Extracting Images and searching for the match..."):
         process_images_in_directory(file_path,image_folder)
-        st.write("Image search comapleted suscessfully !")
+        st.write("Image search completed suscessfully !")
 
         file_path2= "./plagarism_results/image_search_results.txt"
         with open(file_path2 , "r", encoding="utf-8") as file:
             file_content = file.read()
 
+        st.text(file_content)
         # Provide a download button for the text file
         st.download_button(
             label="Download Image Report",
@@ -123,4 +108,7 @@ if image_report_button:
             mime="text/plain"
         )
 
+if exit_button:
+    st.write("Exiting the application...")
+    os._exit(0)  # Forcefully terminate the program
 

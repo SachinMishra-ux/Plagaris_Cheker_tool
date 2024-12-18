@@ -7,9 +7,9 @@ def no_of_searches(file_path):
     queries = []
     # load Fulfillment_report_slides.pdf from `data` folder to Colab
     loaders = PyPDFLoader(file_path, extract_images=True)
-    #docs = loaders.load()
+    docs = loaders.load()
     #loaders = PyPDFLoader(file_path, extract_images=True)
-    docs= loaders.load_and_split()
+    #docs= loaders.load_and_split()
 
 
     # No of pages in doc
@@ -18,17 +18,23 @@ def no_of_searches(file_path):
     # Document splitting
     
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size = 200,
-        chunk_overlap = 40
+        chunk_size = 170,
+        chunk_overlap = 15
     )
     splits = text_splitter.split_documents(docs)
-    print("No of searches to make:", len(splits))
+    
     
     # Clean each document chunk (split)
     for document in splits:
-        cleaned_text = clean_string(document.page_content)  # Access the text content
-        queries.append(cleaned_text)
+        # Skip the iteration if any of the unwanted phrases are in the document content
+        if any(phrase in document.page_content for phrase in ['Albert Einstein', 'Ⓒ', 'Congratulations', 'Knowledge check','Module completion','import','# Importing necessary modules','print','pip']):
+            continue  # Skip this iteration
     
+        # Clean the text and append to queries
+        cleaned_text = clean_string(document.page_content)
+        queries.append(cleaned_text)
+
+    print("No of searches to make:", len(queries))
     return queries
 
 if __name__ == "__main__":

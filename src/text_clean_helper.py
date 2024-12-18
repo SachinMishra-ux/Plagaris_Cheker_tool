@@ -1,9 +1,24 @@
 from bs4 import BeautifulSoup
+import re
 
 
 def clean_string(input_string):
     # Remove \x00 and newline characters
     cleaned_string = input_string.replace("\x00", " ").replace("\n", " ")
+
+
+    # Handle missing spaces by adding one between lower and uppercase letters or word breaks
+    cleaned_string = re.sub(r'([a-z])([A-Z])', r'\1 \2', cleaned_string)
+    cleaned_string = re.sub(r'(\w)([.,!?;:])', r'\1 \2', cleaned_string)  # Add space before punctuation
+
+    # Add space between lowercase and uppercase letters (e.g., "GPTis" -> "GPT is")
+    cleaned_string = re.sub(r'([a-z])([A-Z])', r'\1 \2', cleaned_string)
+    
+    # Add space after punctuation if missing (e.g., "Open AIandlaunched" -> "Open AI and launched")
+    cleaned_string = re.sub(r'([.,!?;:])([A-Za-z])', r'\1 \2', cleaned_string)
+    
+    # Replace multiple spaces with a single space
+    cleaned_string = re.sub(r'\s+', ' ', cleaned_string)
     
     # Strip leading and trailing white spaces
     cleaned_string = cleaned_string.strip()

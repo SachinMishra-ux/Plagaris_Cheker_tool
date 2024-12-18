@@ -1,10 +1,10 @@
 
-Query: InMathematics,adifferentialequationisanequationthatcontainsoneormorefunctionswithitsderivatives.Thederivativesofthefunctiondefinetherateofchangeofafunctionatapoint. DifferentpointofAngle.
+Query: Chains In Lang Chain , chains are modular , reusable components that facilitate the creation of
 No matching results found.
 
 --------------------------------------------------
 
-Query: ExperiencedDataScientistandMentorproficientinMachineLearning,NLP,ComputerVision,andGenAIwith3yearsofhands-onexperience.LedteamsofJuniorDataScientistsandAnalysts,guidingthemtoachieveoutstandingresults.Knownforleveragingdata-driveninsightstosolvecompl
+Query: complex work ows by combining language models with other tools and data sources Some key types of chain are : LLM chain Sequential chain Router chain Utility chain
 No matching results found.
 
 --------------------------------------------------
