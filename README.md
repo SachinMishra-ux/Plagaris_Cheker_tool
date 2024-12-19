@@ -1,4 +1,4 @@
-## Plagarism checker tool
+## Plagiarism checker tool
 
 ## Local Project Setup:
 

@@ -33,7 +33,7 @@ def get_quries(temp_file_path):
 
 # Open sidebar and display queries
 with st.sidebar:
-    st.header("Plagarism Checker Tool")
+    st.header("Plagiarism Checker Tool")
 
     # File uploader to upload a PDF
     uploaded_file = st.file_uploader("Upload a PDF file", type="pdf")

@@ -9,3 +9,403 @@ No matching results found.
 
 --------------------------------------------------
 
+Query: LLM chain The most fundamental chain type , the LLM chain : takes an input and applies a format using a prompt template passes it to a language model parses the output
+No matching results found.
+
+--------------------------------------------------
+
+Query: LLM chain (cont’d) Try running a simple chain using the LLa MA model in ctransformers
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Initialize the Llama model using C Transformers with the specific Llama-2-7B-Chat modelllm = CTransformers(model="The Bloke/Llama-2-7B-Chat-GGUF", model_type="llama")#
+No matching results found.
+
+--------------------------------------------------
+
+Query: Create a prompt template for generating company names based on a product prompt = Prompt Template(input_variables=["product"], template="What is a good name
+No matching results found.
+
+--------------------------------------------------
+
+Query: is a good name for a company that specializes in {product}?")
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Create an LLMChain object with the specified language model and promptchain = LLMChain(llm=llm , prompt=prompt , verbose=True)
+No matching results found.
+
+--------------------------------------------------
+
+Query: and the stochastic nature of language model predictions based on dynamic input specificity . This is more pronounced in locally loaded models compared to API-based models
+No matching results found.
+
+--------------------------------------------------
+
+Query: Sequential chain A sequential chain executes multiple chains in a speci c order It supports multiple inputs/outputs
+No matching results found.
+
+--------------------------------------------------
+
+Query: Simple Sequential Chain allows for a single input to undergo a series of coherent transformations , resulting in a re ned output Diagram of a simple sequential chain
+No matching results found.
+
+--------------------------------------------------
+
+Query: Sequential chain (cont’d) Now try combining two chains into a sequential chain ow
+No matching results found.
+
+--------------------------------------------------
+
+Query: # This is an LLMChain to write the first chain . first_prompt = Chat Prompt Template . from_template( "What is the best name to describe a company that makes
+No matching results found.
+
+--------------------------------------------------
+
+Query: that makes {product}?")chain_one = LLMChain(llm=llm , prompt=first_prompt)
+No matching results found.
+
+--------------------------------------------------
+
+Query: Sequential chain (cont’d)
+No matching results found.
+
+--------------------------------------------------
+
+Query: # This is an LLMChain to write the second chainsecond_prompt = Chat Prompt Template . from_template( "Write a 20 words description for the following
+No matching results found.
+
+--------------------------------------------------
+
+Query: the following company :{company_name}")chain_two = LLMChain(llm=llm , prompt=second_prompt)# LLM is already defined as Llama-2-7B-Chat-GGUF in previous slides
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Combining two chains in a simple sequential flowoverall_simple_chain = Simple Sequential Chain(chains=[chain_one ,
+No matching results found.
+
+--------------------------------------------------
+
+Query: chain_two], verbose=True)overall_simple_chain . run("gaming laptop")#While executing , Outputs may vary from those in slides due to model hallucination and the stochastic
+No matching results found.
+
+--------------------------------------------------
+
+Query: the stochastic nature of language model predictions based on dynamic input specificity . This is more pronounced in locally loaded models compared to API-based models
+No matching results found.
+
+--------------------------------------------------
+
+Query: "Elite Tech Gaming Laptops"
+No matching results found.
+
+--------------------------------------------------
+
+Query: "Unleash your gaming potential with Elite Tech's high-performance laptops designed for the ultimate gaming experience . Elevate your gameplay today ."
+No matching results found.
+
+--------------------------------------------------
+
+Query: Router chain A router chain directs , or routes , inputs to the most suitable chain from a set of prede ned options
+No matching results found.
+
+--------------------------------------------------
+
+Query: It is ideal for handling diverse inputs requiring specialized processing Key features of router chains include :
+No matching results found.
+
+--------------------------------------------------
+
+Query: Dynamic selection : chooses the appropriate chain based on input criteria Versatility : manages a variety of inputs ef ciently
+No matching results found.
+
+--------------------------------------------------
+
+Query: Router chain exploration Experiment with router chains by de ning personas with subject matter-speci c expertise
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Defining personas for router decision-makingmath_teacher = """Your name is Helen , you are a Math teacher ...{input}"""
+No matching results found.
+
+--------------------------------------------------
+
+Query: spanish_teacher = """Your name is Thomas , you are a Spanish teacher ...{input}""" calculus_teacher = """Your name is Godfrey , you are a Calculus teacher ...{input}"""
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Setting up prompts for each personaprompt_infos = [ {"name": "Math Teacher", "description": "Good for answering questions about Math", "prompt_template":
+No matching results found.
+
+--------------------------------------------------
+
+Query: math_teacher}, {"name": "Spanish Teacher", "description": "Good for answering questions about Spanish", "prompt_template": spanish_teacher}, {"name": "Calculus
+No matching results found.
+
+--------------------------------------------------
+
+Query: "Calculus Teacher", "description": "Good for answering questions about Calculus", "prompt_template": calculus_teacher},]
+No matching results found.
+
+--------------------------------------------------
+
+Query: Router chain exploration (cont’d)
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Mapping inputs to specific teacher chainsdestination_chains = {}for prompt_info in prompt_infos : prompt = Prompt Template(template=prompt_info["prompt_template"],
+No matching results found.
+
+--------------------------------------------------
+
+Query: input_variables=["input"]) chain = LLMChain(llm=llm , prompt=prompt) destination_chains[prompt_info["name"]] = chain
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Default chain for general conversationsdefault_chain = Conversation Chain(llm=llm , output_key="text")
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Preparing descriptions for router optionsdestinations = [f"{p['name']}: {p['description']}" for p in prompt_infos]destinations_str = "\n". join(destinations)
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Setting up router chain templaterouter_template = MULTI_PROMPT_ROUTER_TEMPLATE . format(destinations=destinations_str)router_prompt =
+No matching results found.
+
+--------------------------------------------------
+
+Query: = Prompt Template(template=router_template , input_variables=["input"], output_parser=Router Output Parser())
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Creating the main router chainrouter_chain = LLMRouter Chain . from_llm(llm , router_prompt)
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Combining all chains into Multi Prompt Chainchain = Multi Prompt Chain(router_chain=router_chain , destination_chains=destination_chains , default_chain=default_chain ,
+No matching results found.
+
+--------------------------------------------------
+
+Query: verbose=True)
+No matching results found.
+
+--------------------------------------------------
+
+Query: > Entering new Multi Prompt Chain chain ... Math Teacher : {'input': 'What is the meaning of average ?'}Average refers to the sum of a set of numbers divided by the total
+No matching results found.
+
+--------------------------------------------------
+
+Query: by the total number of numbers in that set . .....
+No matching results found.
+
+--------------------------------------------------
+
+Query: > Entering new Multi Prompt Chain chain ... Calculus Teacher : {'input': 'What is the derivative of x dx'}The derivative of x dx is simply 1 . This is because the derivative
+No matching results found.
+
+--------------------------------------------------
+
+Query: the derivative of x is 1 and the derivative of dx is 0 .....
+No matching results found.
+
+--------------------------------------------------
+
+Query: > Entering new Multi Prompt Chain chain ... Spanish Teacher : {'input': "Translate 'Hello world' to Spanish"}"Hola mundo" Data Connections , Chains , and Agents - 2
+No matching results found.
+
+--------------------------------------------------
+
+Query: Utility chain Utility chains help accomplish specialized tasks , including : math computations SQL commands API calls Bash commands
+No matching results found.
+
+--------------------------------------------------
+
+Query: Bash commands They combine a large language model (LLM) with speci c utilities in Lang Chain They include chains like Math Chain , SQLChain , APIChain , and Bash Chain
+No matching results found.
+
+--------------------------------------------------
+
+Query: Key features of utility chains : Targeted functionality : each chain is designed for speci c operations Integration : seamlessly integrate with LLMs for enhanced processing
+No matching results found.
+
+--------------------------------------------------
+
+Query: Customization : tailor chains to unique application requirements Learn about even more types of chains by visiting python . langchain . com (link)
+No matching results found.
+
+--------------------------------------------------
+
+Query: Lang Chain agents Lang Chain agents are powerful components that bring exibility and adaptivity to work ows
+No matching results found.
+
+--------------------------------------------------
+
+Query: work ows They are an advancement from the more rigid “chain” system in Lang Chain , allowing users to create intelligent agents
+No matching results found.
+
+--------------------------------------------------
+
+Query: Key traits of these intelligent Lang Chain agents include : Dynamic decision-making : Agents can choose their actions based on the context
+No matching results found.
+
+--------------------------------------------------
+
+Query: and user input , not just follow a pre-de ned script External tool access : Agents can be connected to APIs , databases , and other tools
+No matching results found.
+
+--------------------------------------------------
+
+Query: to gather information and complete tasks Memory capabilities : Agents can store information from previous interactions , providing a sense of context and continuity
+No matching results found.
+
+--------------------------------------------------
+
+Query: Learning potential : Advanced agents can adapt and improve their behavior based on feedback and experience Data Connections , Chains , and Agents - 2
+No matching results found.
+
+--------------------------------------------------
+
+Query: Lang Chain agents (cont’d) Use a Lang Chain agent to compose a 100-word essay on an input topic
+No matching results found.
+
+--------------------------------------------------
+
+Query: data access library .
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Initialize the tools for the agentsearch = Duck Duck Go Search Run()arxiv = Arxiv Query Run()wiki = Wikipedia Query Run(api_wrapper=Wikipedia APIWrapper())
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Setup the essay generation tool
+No matching results found.
+
+--------------------------------------------------
+
+Query: prompt_template = "Write an essay for the topic provided by the user with the help of following content : {content}"essay = LLMChain( llm=llm ,
+No matching results found.
+
+--------------------------------------------------
+
+Query: llm=llm , prompt=Prompt Template . from_template(prompt_template))
+No matching results found.
+
+--------------------------------------------------
+
+Query: Lang Chain agents (cont’d)
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Define the tools the agent will usetools = [ Tool( name="Search", func=search . run , description="useful for when you need to answer questions
+No matching results found.
+
+--------------------------------------------------
+
+Query: questions about current events ."), Tool( name="Arxiv", func=arxiv . run , description="useful when you need an answer about research papers from the
+No matching results found.
+
+--------------------------------------------------
+
+Query: from the ar Xiv repository"), Tool( name="Wikipedia", func=wiki . run , description="useful when you need an answer about encyclopedic general
+No matching results found.
+
+--------------------------------------------------
+
+Query: general knowledge"), Tool . from_function( func=essay . run , name="Essay", description="useful when you need to write an essay") ]
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Initialize the agent with defined toolsagent = initialize_agent(tools , llm , agent=Agent Type . OPENAI_FUNCTIONS , verbose=True)
+No matching results found.
+
+--------------------------------------------------
+
+Query: # Run the agent to write an essay on given topicprompt = "Write an essay in 100 words for the topic {input}, use the tools to retrieve the necessary
+No matching results found.
+
+--------------------------------------------------
+
+Query: the necessary information"input_topic = "Essay on Global Warming – Causes and Solutions"
+No matching results found.
+
+--------------------------------------------------
+
+Query: > Entering new Agent Executor chain ... Invoking : `Essay` with `Essay on Global Warming – Causes and Solutions`
+No matching results found.
+
+--------------------------------------------------
+
+Query: Global warming is a pressing issue that has garnered significant attention in recent years . It refers to the long-term increase in Earth's average surface temperature
+No matching results found.
+
+--------------------------------------------------
+
+Query: temperature due to human activities , primarily the emission of greenhouse gases . This essay will explore the causes of global warming and propose potential solutions to
+No matching results found.
+
+--------------------------------------------------
+
+Query: solutions to mitigate its effects .. .. ... . .. ... . .. ... . .. ... . .. ... . .. ... . .. ... . .. ... . .. ... . .. ... > Finished chain . Global warming is a
+No matching results found.
+
+--------------------------------------------------
+
+Query: warming is a significant problem caused by human activities , primarily the burning of fossil fuels , deforestation , and methane emissions . To address this issue , we need
+No matching results found.
+
+--------------------------------------------------
+
+Query: issue , we need to transition to renewable energy sources , such as solar and wind power , and reduce our reliance on fossil fuels . Additionally , efforts to reduce
+No matching results found.
+
+--------------------------------------------------
+
+Query: to reduce deforestation and promote reforestation are crucial in restoring the planet's capacity to absorb carbon dioxide . We also need to implement better agricultural
+No matching results found.
+
+--------------------------------------------------
+
+Query: of reducing greenhouse gas emissions is essential . By taking these steps , we can work towards mitigating the effects of global warming and creating a sustainable future .
+No matching results found.
+
+--------------------------------------------------
+
+Query: Lang Chain agent uses Additional use cases of Lang Chain agents include : Adaptive automation : Automate work ows with agents that can handle
+No matching results found.
+
+--------------------------------------------------
+
+Query: unexpected situations and adjust their actions based on real-time data Interactive chatbots : Build dynamic chatbots that understand user intent and respond accordingly
+No matching results found.
+
+--------------------------------------------------
+
+Query: Agents can be customized for speci c tasks and domains They can be integrated into larger applications for a more interactive and adaptable user experience
+No matching results found.
+
+--------------------------------------------------
+
+Query: Data connections , Chains , and Agents : Topic summary In this part of the course , we have covered : Lang Chain data connections processes and components
+No matching results found.
+
+--------------------------------------------------
+
