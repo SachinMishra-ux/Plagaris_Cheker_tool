@@ -1,4 +1,4 @@
-## Plagiarism checker tool
+# Plagiarism checker tool
 
 ## Local Project Setup:
 
@@ -17,18 +17,29 @@
 - It will download the zip file, extract the zip file and copy paste the `chromedriver` to the `local_deriver` folder.
 - [Watch this video for more information](./assets/chrome_version.png)
 
-#### Environment Setup
+### Environment Setup
 
+#### Either
+
+1. Run the following command in your terminal to setup the environment:
+   - ```bash setup.sh```
+2. To activate virtual environment:
+   - ```conda activate ./plagiarism```
+
+#### OR
+  
 1. create virtual environment: ```conda create -p plagarism python==3.10 -y```
 2. check your environment ```conda env list```
 3. You will see something like this: `/Users/sachinmishra/Desktop/Testing/plagarism_checker/plagarism`
 4. activate virtual environment : ```conda activate {full_path_of_virtual_environment} ```
 5. download all the dependencies: ```pip install -r requirements.txt```
 
-- To run the application:
+
+## To run the application:
 ``` streamlit run main.py```
 
-
+### Chromedriver execuation error resolution
+ 
 - Once You run the application and if you see a prompt regarding `chromedriver not executable` or something related to access of the chromedriver then you can use the below step to fix it.
 ![alt text](./assets/image.png)
 
