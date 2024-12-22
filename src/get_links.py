@@ -11,10 +11,32 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 
-
-
-
 def google_search(query, driver):
+
+    """
+    Performs a Google search for a given query and retrieves the top 3 result links.
+
+    Args:
+        query (str): The search query to be entered into Google.
+        driver (webdriver): An instance of Selenium WebDriver, configured for browser automation.
+
+    Returns:
+        list: A list containing the URLs of the top 3 search results. If no results are found or an error occurs, an empty list is returned.
+
+    Functionality:
+        1. Opens the Google homepage.
+        2. Locates the search bar using its `name` attribute and enters the provided query.
+        3. Submits the search form and waits for the results to load.
+        4. Extracts the URLs of the top 3 search results by:
+            - Locating the result titles using their `CLASS_NAME`.
+            - Navigating to the parent anchor (`<a>`) tag of each title to extract the `href` attribute.
+        5. Handles scenarios where no search results are available or errors occur during execution.
+
+    Notes:
+        - Requires the Selenium WebDriver library for browser automation.
+        - The `CLASS_NAME` used for locating search results ("LC20lb") must match Google's current DOM structure. This may change over time.
+        - A pre-configured WebDriver instance must be passed as the `driver` argument, and it must be capable of accessing the internet.
+    """
 
     try:
         # Open Google
@@ -60,6 +82,31 @@ def google_search(query, driver):
     return links
 
 def search_multiple_queries(queries):
+
+    """
+    Performs Google searches for multiple queries and retrieves the top result links for each query.
+
+    Args:
+        queries (list): A list of search queries (strings) to be executed on Google.
+
+    Returns:
+        dict: A dictionary where keys are the queries and values are lists of URLs (top search result links) corresponding to each query. 
+              If no results are found for a query, the value is an empty list.
+
+    Functionality:
+        1. Configures a Selenium WebDriver instance in headless mode for automated browser interaction.
+        2. Iterates over each query in the provided list:
+            - Calls the `google_search` function to perform the search.
+            - Stores the resulting links in a dictionary with the query as the key.
+        3. Prints the number of links fetched for each query during execution.
+        4. Ensures the WebDriver instance is properly closed after processing all queries.
+
+    Notes:
+        - Requires the Selenium WebDriver library for browser automation.
+        - The `google_search` function is expected to handle individual query searches and return a list of links.
+        - A pre-configured WebDriver instance is created within this function with options for headless execution.
+        - Ensure the Google DOM structure (e.g., class names used in `google_search`) matches the current Google page layout.
+    """
     options= webdriver.ChromeOptions()
     options.add_argument("--headless")  # Enable headless mode
     options.add_argument("--disable-gpu")  # Disable GPU acceleration (recommended for headless mode)

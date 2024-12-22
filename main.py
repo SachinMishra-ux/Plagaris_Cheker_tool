@@ -2,18 +2,31 @@ import streamlit as st
 from src.chunk_document import no_of_searches
 from src.get_links import search_multiple_queries
 from src.scrape_content import scrape_website_content
-from src.text_clean_helper import clean_string,remove_queries_by_index
+from src.text_clean_helper import clean_string
 from src.constants import image_folder
 from src.match_results import parse_and_compare
 from src.process_images import process_images_in_directory
-##from src.extract_images import extract_images_from_pdf
-#from src.get_image_urls import search_image_on_google, search_results_url
 import tempfile
 import os
 
 
 
 def get_file_path(uploaded_file):
+
+    """
+    Saves an uploaded file to a temporary location and returns the file path.
+
+    Args:
+        uploaded_file (file-like object): The uploaded file object to be saved.
+
+    Returns:
+        str: The file path of the saved temporary file, or `None` if no file was provided.
+
+    Functionality:
+        - Checks if a file is uploaded.
+        - Writes the contents of the uploaded file to a temporary file with a `.pdf` extension.
+        - Ensures the temporary file persists (does not delete automatically).
+    """
     if uploaded_file is not None:
         # Save uploaded file to a temporary file
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
@@ -56,8 +69,6 @@ if submit_button:
     else:
         st.warning("Please upload a PDF file before submitting.")
     
-    
-
         
 if text_report_button: 
     queries= get_quries(file_path)

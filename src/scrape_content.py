@@ -13,6 +13,28 @@ import time
 #queries = ["Intro to classi cation - Logistic regression - 1 One should look for what is and not what he thinks should be. (Albert Einstein)DAT SOCI", "Logistic regression: Topic introduction In this part of the course, we will cover the following concepts: Logistic regression use cases and theory behind it Data transformation necessary for logistic regression Implementation of logistic regression on a dataset Model performance evaluation and tuning Logistic regression-1 1", "Quick Activity Suppose we want to predict whether a person will purchase a certain car or not What nume rical data might be relevant for making this prediction? What additional qualitative or categorical data might be relevant? How migh t you handle variables like marital status, education level, or gender? Logistic regression-1 2"]
 
 def scrape_website_content(search_results):
+
+    """
+    Scrapes website content for a set of search results and returns the cleaned content for each query.
+
+    Args:
+        search_results (dict): A dictionary where keys are search queries (str) and values are lists of URLs (str) 
+                               to scrape content from.
+
+    Returns:
+        dict: A dictionary where each key is a query (str) and its value is a list of dictionaries. 
+              Each dictionary contains a URL (key) and its corresponding cleaned content (value).
+
+    Functionality:
+        1. Sets up a Selenium WebDriver in headless mode.
+        2. Iterates over the search results:
+            - For each query, fetches the list of URLs associated with it.
+            - For each URL:
+                - Loads the webpage using Selenium.
+                - Extracts and processes the HTML content.
+                - Stores the cleaned content along with the URL in a dictionary.
+        3. Returns a dictionary containing the scraped content for each query.
+    """
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")  # Enable headless mode
     options.add_argument("--disable-gpu")  # Disable GPU acceleration (recommended for headless mode)

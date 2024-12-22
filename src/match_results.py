@@ -5,6 +5,30 @@ from src.text_clean_helper import clean_string
 import re
 
 def parse_and_compare(query_content_dict):
+
+    """
+    Parses query-content data, compares each query with its corresponding content, and writes the results to a text file.
+
+    Args:
+        query_content_dict (dict): A dictionary where:
+            - Keys are search queries (strings).
+            - Values are lists of dictionaries, each containing a URL (key) and its corresponding content (value).
+
+    Returns:
+        None: Writes the results of the comparison to a file named `query_matches.txt`.
+
+    Functionality:
+        1. Opens a text file (`./plagarism_results/query_matches.txt`) to write the output.
+        2. Iterates over the dictionary:
+            - For each query, iterates through the associated list of link-content dictionaries.
+            - Cleans the content using `clean_string`.
+            - Uses regular expressions to compare the query with the content (case-insensitive).
+        3. Writes the results to the file:
+            - If a match is found, writes the matched URL.
+            - If no matches are found, notes this for the query.
+        4. Separates results for each query using a separator line for readability.
+        5. Prints a message indicating that the results have been written.
+    """    
     # Open a text file for writing the output
     with open("./plagarism_results/query_matches.txt", "w") as file:
         file.write("\n")

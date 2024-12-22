@@ -9,6 +9,43 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException,
 import time
 
 def search_image_on_google(image_path):
+
+    """
+    Automates the process of searching for an image on Google Images.
+
+    Args:
+        image_path (str): The local file path of the image to be searched.
+
+    Returns:
+        str: The URL of the Google search results page for the uploaded image.
+
+    Functionality:
+        1. Sets up a Chrome WebDriver instance in headless mode.
+        2. Opens Google Images search page.
+        3. Checks for and dismisses any sign-in iframe or pop-up modal that might block interaction.
+        4. Locates the 'Search by image' button and clicks it.
+        5. Locates the file upload input field, scrolls it into view if necessary, and uploads the image file.
+        6. Waits for the URL of the search results to update and retrieves it.
+        7. Closes the browser and returns the search results URL.
+
+    Notes:
+        - Requires the ChromeDriver executable (`chrome_driver_path` should be set) and the Selenium WebDriver library.
+        - The WebDriver must be configured to work with the correct version of Google Chrome.
+        - Ensure that the class names and XPath selectors used in the code are updated to match the current Google Images DOM structure, as these may change over time.
+        - The `image_path` should point to a valid image file on the local filesystem.
+        - This function may fail if Google's DOM structure changes or network issues occur.
+
+    Exceptions Handled:
+        - `NoSuchElementException`: Raised if expected elements are not found on the page.
+        - `TimeoutException`: Raised if elements do not become interactable within the specified timeout period.
+        - `ElementNotInteractableException`: Raised if elements are present but cannot be interacted with.
+
+    Example:
+        ```python
+        image_url = search_image_on_google("/path/to/image.jpg")
+        print(f"Search results can be found at: {image_url}")
+        ```
+    """
     # Set up the WebDriver (assuming you are using Chrome)
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")  # Enable headless mode
@@ -83,6 +120,47 @@ def search_image_on_google(image_path):
         return search_results_url
 
 def search_results_url(image_path, result_url,output_file="./plagarism_results/image_search_results.txt"):
+
+    """
+    Automates the retrieval of search results from a Google Images search URL and logs the results or errors.
+
+    Args:
+        image_path (str): The local file path of the image being searched.
+        result_url (str): The URL of the Google Images search results page.
+        output_file (str): The file path where results or error messages will be logged. Default is 
+                           "./plagarism_results/image_search_results.txt".
+
+    Functionality:
+        1. Sets up a Chrome WebDriver instance in headless mode.
+        2. Opens the specified search results URL.
+        3. Attempts to locate and click the "Find image source" button.
+        4. Handles the following scenarios:
+            - If an error message is displayed, logs the error message along with the image path and result URL.
+            - If no error message is found, retrieves up to the top 5 result URLs and logs them.
+            - If no results are found, logs a message indicating no duplicate images or webpages were located.
+        5. Writes all relevant data to the specified output file.
+        6. Prints the top URLs or relevant messages to the console.
+
+    Returns:
+        None
+
+    Notes:
+        - Requires the ChromeDriver executable (`chrome_driver_path` should be set) and the Selenium WebDriver library.
+        - Ensure that the class names and CSS selectors used in the code match the current Google Images DOM structure.
+        - The output file will be appended to if it already exists.
+
+    Exceptions Handled:
+        - General exceptions are caught and logged, along with the exception message.
+
+    Example:
+        ```python
+        search_results_url(
+            image_path="/path/to/image.jpg",
+            result_url="https://www.google.com/search?tbs=sbi:XYZ...",
+            output_file="./results/image_search_results.txt"
+        )
+        ```
+    """
     # Set up the WebDriver (assuming you are using Chrome)
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")  # Enable headless mode
@@ -142,7 +220,7 @@ def search_results_url(image_path, result_url,output_file="./plagarism_results/i
                     f.write("\n" + "-" * 40 + "\n")
     
     except Exception as e:
-        print('An error occurred:', str(e))     
+        print('An error occurred:', str(e))   
 
 
 

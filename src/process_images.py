@@ -4,7 +4,28 @@ from src.constants import image_folder
 import os
 
 def process_images_in_directory(pdf_path, image_directory,output_file="./plagarism_results/image_search_results.txt"):
+    """
+    Extracts images from a PDF, processes each image in a directory, searches for its source on Google, 
+    and writes the results to an output file.
 
+    Args:
+        pdf_path (str): Path to the input PDF file from which images will be extracted.
+        image_directory (str): Path to the directory where extracted images will be saved.
+        output_file (str): Path to the output text file where search results will be stored. Defaults to 
+                           './plagarism_results/image_search_results.txt'.
+
+    Returns:
+        None: Writes the results of image searches to the specified output file.
+
+    Functionality:
+        1. Creates the image directory if it does not exist.
+        2. Extracts images from the PDF using `extract_images_from_pdf` and saves them in the specified directory.
+        3. Iterates through all files in the image directory:
+            - Processes only image files (e.g., `.png`, `.jpg`).
+            - Searches for each image on Google using `search_image_on_google`.
+            - Appends the image path and result URL to a list if a URL is found.
+        4. Writes all results (image paths and corresponding result URLs) to the specified output file.
+    """
     # Create the directory if it doesn't exist
     if not os.path.exists(image_directory):
         os.makedirs(image_directory)

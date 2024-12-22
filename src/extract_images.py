@@ -7,7 +7,28 @@ from src.constants import image_folder
 
 
 def extract_images_from_pdf(pdf_path, image_folder):
-    
+
+    """
+    Extracts all images from a PDF file and saves them to a specified folder.
+
+    Args:
+        pdf_path (str): The file path to the PDF document to be processed.
+        image_folder (str): The directory where extracted images will be saved.
+
+    Returns:
+        list: A list of PIL Image objects representing the images extracted from the PDF.
+
+    Functionality:
+        1. Opens the PDF file using the `fitz` library.
+        2. Iterates over each page in the PDF to find images.
+        3. For each image found:
+            - Extracts the image bytes and metadata (e.g., format/extension).
+            - Converts the image bytes into a PIL Image object.
+            - Saves the image to the specified `image_folder` with a filename 
+              indicating the page number and image index.
+        4. Appends the PIL Image object to a list of extracted images.
+        5. Returns the list of extracted images.
+    """ 
     pdf_file = fitz.open(pdf_path)
     images = []
     

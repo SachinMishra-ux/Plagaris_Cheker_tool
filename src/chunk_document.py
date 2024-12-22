@@ -4,14 +4,32 @@ from src.text_clean_helper import clean_string
 
 
 def no_of_searches(file_path):
+    """
+    Extracts, processes, and cleans text from a PDF file to determine the number of relevant search queries.
+
+    Args:
+        file_path (str): The file path to the PDF document to be processed.
+
+    Returns:
+        list: A list of cleaned text chunks representing the search queries to be made.
+
+    Functionality:
+        1. Loads the PDF file using the `PyPDFLoader` class.
+        2. Counts and prints the total number of pages in the PDF.
+        3. Splits the document into smaller chunks using a `RecursiveCharacterTextSplitter` 
+           with specified chunk size and overlap.
+        4. Cleans each chunk of text by:
+            - Filtering out content that includes specific unwanted phrases (e.g., "Albert Einstein", "Ⓒ", 
+              "Knowledge check", etc.).
+            - Cleaning the remaining text using a `clean_string` function (assumed to be predefined).
+        5. Prints and returns the number of valid queries generated.
+    """
     queries = []
     # load Fulfillment_report_slides.pdf from `data` folder to Colab
     loaders = PyPDFLoader(file_path, extract_images=True)
     docs = loaders.load()
     #loaders = PyPDFLoader(file_path, extract_images=True)
     #docs= loaders.load_and_split()
-
-
     # No of pages in doc
     print('Numbers of pages:',len(docs))
 
