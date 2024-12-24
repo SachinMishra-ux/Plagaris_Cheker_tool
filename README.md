@@ -25,6 +25,9 @@
    - ```bash setup.sh```
 2. To activate virtual environment:
    - ```conda activate ./plagiarism```
+3. Within the `src` folder you will see a file called `constanats.py`and within the the file you need to change the value of `image_folder` = `"/Users/sachinmishra/Desktop/plagarism_checker/extracted_images"` according to your system path.
+
+ - example, if you have your path like this: `/Users/swaroop/Desktop/plagarism_checker/extracted_images` so just replace the `image_folder` with `"/Users/swaroop/Desktop/plagarism_checker/extracted_images"`
 
 #### OR
   
@@ -33,6 +36,9 @@
 3. You will see something like this: `/Users/sachinmishra/Desktop/Testing/plagarism_checker/plagarism`
 4. activate virtual environment : ```conda activate {full_path_of_virtual_environment} ```
 5. download all the dependencies: ```pip install -r requirements.txt```
+6. 3. Within the `src` folder you will see a file called `constanats.py`and within the the file you need to change the value of `image_folder` = `"/Users/sachinmishra/Desktop/plagarism_checker/extracted_images"` according to your system path.
+
+ - example, if you have your path like this: `/Users/swaroop/Desktop/plagarism_checker/extracted_images` so just replace the `image_folder` with `"/Users/swaroop/Desktop/plagarism_checker/extracted_images"`
 
 
 ## To run the application:
@@ -42,4 +48,9 @@
  
 - Once You run the application and if you see a prompt regarding `chromedriver not executable` or something related to access of the chromedriver then you can use the below step to fix it.
 ![alt text](./assets/image.png)
+
+
+### For any Query
+
+- In case of any query/issue reach out to Sachin via slack or email: sachin.mishra@datasociety.com
 

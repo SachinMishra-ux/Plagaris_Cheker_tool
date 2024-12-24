@@ -165,7 +165,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-
+src/__pycache__/constanats.cpython-310.pyc
 src/__pycache__/__init__.cpython-310.pyc
 src/__pycache__/get_image_urls.cpython-310.pyc
 src/__pycache__/constants.cpython-310.pyc
